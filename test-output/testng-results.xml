@@ -1,49 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-24T09:23:56 IST" name="Suite" finished-at="2025-09-24T09:24:16 IST" duration-ms="19705">
+  <suite started-at="2025-10-03T09:15:45 IST" name="Default suite" finished-at="2025-10-03T09:16:11 IST" duration-ms="26133">
     <groups>
     </groups>
-    <test started-at="2025-09-24T09:23:56 IST" name="Test1" finished-at="2025-09-24T09:24:07 IST" duration-ms="10478">
-      <class name="com.testng.TestNgParameter_FB">
-        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testng.TestNgParameter_FB@158da8e]" started-at="2025-09-24T09:23:56 IST" name="f" finished-at="2025-09-24T09:24:07 IST" duration-ms="10401" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-10-03T09:15:45 IST" name="Default test" finished-at="2025-10-03T09:16:11 IST" duration-ms="26133">
+      <class name="com.FW.DataDrivenDemo">
+        <test-method signature="test()[pri:0, instance:com.FW.DataDrivenDemo@223d2c72]" started-at="2025-10-03T09:15:45 IST" name="test" finished-at="2025-10-03T09:16:11 IST" duration-ms="26062" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.testng.TestNgParameter_FB -->
-    </test> <!-- Test1 -->
-    <test started-at="2025-09-24T09:24:07 IST" name="Test2" finished-at="2025-09-24T09:24:16 IST" duration-ms="9154">
-      <class name="com.testng.TestNgParameter_FB">
-        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testng.TestNgParameter_FB@293a5bf6]" started-at="2025-09-24T09:24:07 IST" name="f" finished-at="2025-09-24T09:24:16 IST" duration-ms="9149" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nest@bdbsbd]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[34343]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.testng.TestNgParameter_FB -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test -->
+      </class> <!-- com.FW.DataDrivenDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
